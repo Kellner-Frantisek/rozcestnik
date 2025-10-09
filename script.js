@@ -6,7 +6,8 @@ function revealOnScroll() {
   revealElements.forEach(el => {
     const elementTop = el.getBoundingClientRect().top;
     const elementBottom = el.getBoundingClientRect().bottom;
-    
+
+    // Podmínka: když je aspoň část elementu vidět ve viewportu
     if (elementTop < windowHeight && elementBottom > 0) {
       el.classList.add('visible');
     } else {

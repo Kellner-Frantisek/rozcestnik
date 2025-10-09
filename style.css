@@ -163,7 +163,6 @@
         flex-direction: column;
         box-shadow: 0 15px 28px rgba(0, 0, 0, 0.5);
     }
-
       .hero__column__box {
         opacity: 0;
         transform: translateY(20px);
@@ -257,7 +256,9 @@
 
 .down{
   width: 100%;
-  background-color: #c9b576;;
+  background-color: #c9b576;
+  display: flex;
+  flex-direction: row;
 
 }
 
