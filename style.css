@@ -2,13 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #3a3a3a;
 }
 
 .site{
     height: 100vh;
     width: 100%;
-    background-color: #3a3a3a;
+    background-image: url('fotky/gif.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .main{
@@ -16,7 +18,6 @@
     height: 100%;
     flex-direction: row;
     display: flex;
-    background-color: 	#3a3a3a;
 }
 
 .main__project{
@@ -38,11 +39,11 @@
     display: flex;
     height: 40%;
     width: 100%;
-    color: 	#c9b576;
+    color: 	white;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 90px;
     padding-right: 100px;
-    border-right: solid	#c9b576 5px;
+    border-right: solid	white 5px;
     padding-top: 50px;
     }
 
@@ -53,10 +54,10 @@
     display: flex;
     height: 40%;
     width: 100%;
-    color: 	#c9b576;
+    color: 	white;
     font-weight: bold;
-    font-size: 70px;
-    border-left: solid 	#c9b576 5px;
+    font-size: 90px;
+    border-left: solid 	white 5px;
     padding-left: 100px;
     padding-bottom: 50px;
   }
@@ -116,7 +117,7 @@
         flex-direction: column;
         align-items: end;
         gap: 100px;
-        background-color:#c9b576;
+        background-color:gray;
         padding-left: 300px;
     }
 
@@ -128,7 +129,7 @@
         flex-direction: column;
         align-items: center;
         gap: 100px;
-        background-color:#c9b576;
+        background-color:gray;
     }
 
     .hero__column3{
@@ -139,7 +140,7 @@
         flex-direction: column;
         align-items: start;
         gap: 100px;
-        background-color:#c9b576;
+        background-color: gray;
         padding-right: 300px;
         }
     
@@ -177,7 +178,7 @@
       .hero__column__box__blank{
         width: 400px;
         height: 400px;
-        background-color: #c9b576;
+        background-color: gray;
         display: flex;
         color: white;
         padding: 20px;
@@ -256,92 +257,412 @@
 
 .down{
   width: 100%;
-  background-color: #c9b576;
+  background-color: gray;
   display: flex;
   flex-direction: row;
 
 }
 
-@media (max-width: 1024px) {
-  .main__project__text,
-  .main__class__text {
-    font-size: 50px;
-    padding: 30px;
-    text-align: center;
-    border: none;
-  }
-
-  .main {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .main__project,
-  .main__class {
-    width: 100%;
-    height: auto;
-    justify-content: center;
-  }
-
-  .hero {
-    flex-direction: column;
-    height: auto;
-  }
-
-  .hero__column,
-  .hero__column2,
-  .hero__column3 {
-    width: 100%;
-    align-items: center !important;
-    padding: 0 !important;
-  }
-
-  .hero__column__box,
-  .hero__column__box__blank,
-  .flip-card {
-    width: 90%;
-    height: auto;
-    max-width: none;
-    font-size: 18px;
-  }
-
-  .hero__column__box h1,
-  .flip-card h2 {
-    font-size: 24px;
-  }
-
-  .flip-card {
-    margin: 20px auto;
-  }
-
-  .flip-card-front,
-  .flip-card-back {
-    padding: 20px;
-    font-size: 16px;
-    text-align: center;
-  }
-
-  .down {
-    padding: 20px;
-  }
+.hero__column__box__photo1{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/Hirohito.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-@media (max-width: 600px) {
-  .main__project__text,
-  .main__class__text {
-    font-size: 36px;
-    padding: 20px;
-  }
+.hero__column__box__photo11{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/lidice.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  .hero__column__box,
-  .hero__column__box__blank,
-  .flip-card {
-    width: 95%;
-    font-size: 16px;
-  }
+.hero__column__box__photo21{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/emilbimbas.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  .hero__column__box h1,
-  .flip-card h2 {
-    font-size: 20px;
-  }
+.hero__column__box__photo2{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/holokaust.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo3{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/zbrojirenstvi.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo4{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/Rudolf-Vrba.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo5{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/Neville-Chamberlain-Bassano.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo6{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/severoafricka.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo7{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/anna.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo8{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/vylodeni-italy-photo-02.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo9{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/oskar.jfif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo10{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/osn.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo12{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/varsavske.jfif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo13{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/gabcik.jfif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo14{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/stalin.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo15{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/vaclav.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo16{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/pearl.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo17{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/normandie.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo18{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/mussolin.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo19{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/osvetim.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo20{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/terezin.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo22{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/heydrichiada.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo23{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/ant.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo24{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/nicholas.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo25{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/irena.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero__column__box__photo26{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/bomba.jfif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo27{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/chur.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero__column__box__photo28{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/ravens.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero__column__box__photo29{
+  width: 80%;
+  height: 80%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -webkit-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  -moz-box-shadow: 3px 4px 67px 2px rgba(0,0,0,0.75) inset;
+  background-image: url('fotky/barba.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
