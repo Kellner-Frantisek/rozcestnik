@@ -666,3 +666,78 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media (max-width: 900px) {
+  .main {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  .hero {
+      flex-direction: column;
+  }
+  .hero__column, .hero__column2, .hero__column3 {
+      width: 100%;
+  }
+  .flip-card {
+      width: 90%;
+      height: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .main {
+    flex-direction: column;
+  }
+  .main__project, .main__class {
+    width: 100%;
+    height: auto;
+  }
+  .main__project__text, .main__class__text {
+    text-align: center;
+    border: none;
+    padding: 20px;
+    font-size: 48px;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero__column, .hero__column2, .hero__column3 {
+    width: 100%;
+    padding: 20px;
+    align-items: center !important;
+  }
+  .hero__column__box {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .down{
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .main__project__text, .main__class__text {
+    font-size: 32px;
+    padding: 10px;
+  }
+
+  .hero__column__box {
+    width: 90%;
+    max-width: none;
+  }
+  .hero__column__box__photo1,
+  .hero__column__box__photo2,
+  .hero__column__box__photo3 {
+    background-size: cover;
+    background-position: center center;
+    height: auto; /* nebo nastav konkrétní výšku např. 200px */
+    min-height: 200px;
+  }
+
+  .down{
+    display: none;
+  }
+}
